@@ -2,7 +2,7 @@
 """
 gobi_annotate.py - find and check all members of a protein family in a genome.
 
-One command runs the week-1 pipeline from start to finish:
+One command runs the annotation pipeline from start to finish:
 
     genome + query proteins
       -> BLAST database (makeblastdb)
