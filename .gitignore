@@ -1,0 +1,9 @@
+# pipeline output and large data
+runs/
+*.fna
+*.fna.gz
+*.fai
+# Python / macOS
+__pycache__/
+*.pyc
+.DS_Store

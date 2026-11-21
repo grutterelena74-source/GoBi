@@ -1,0 +1,13 @@
+name: gobi_annotate
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - blast
+  - miniprot
+  - samtools
+  - famsa
+  - iqtree
+  - seqkit
+  - ncbi-datasets-cli
