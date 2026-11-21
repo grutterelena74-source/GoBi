@@ -7,3 +7,33 @@ runs/
 __pycache__/
 *.pyc
 .DS_Store
+# editor / IDE
+.idea/
+.vscode/
+
+# sequence, annotation and result data (never commit genomes or results)
+*.fa
+*.fasta
+*.faa
+*.fas
+*.gff
+*.gff3
+*.gtf
+*.gz
+*.zip
+*.h5
+*.parquet
+*.parquetbundle
+*.tsv
+blastdb/
+gobi_cache/
+
+# course material and documents (copyright)
+*.pdf
+*.pptx
+*.docx
+
+# secrets
+.env
+*.key
+*.pem
